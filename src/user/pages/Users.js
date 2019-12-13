@@ -4,12 +4,14 @@ import UsersList from '../components/UsersList';
 
 const Users = () => {
 
-  const USERS = [{
+  const USERS = [
+    {
     id: 'u1',
     name: 'Gabriel',
-    image: '',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRtyKpE_IuHkMu6DqeB3UHbJ6ly_VQyzr0vUTyYZJl2PXZ9Z_cU',
     places: 3
-  }];
+  }
+];
 
   return (
     <UsersList items={USERS} />
